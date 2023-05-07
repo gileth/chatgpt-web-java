@@ -1,0 +1,13 @@
+edition: 1.0.2
+name: chatgpt-web-java
+access: '{{ access }}'
+services:
+  chatgpt-web-java:
+    component: devsapp/fc
+    props:
+      service:
+        description: chatgpt-web-java
+        internetAccess: true
+        ossMountConfig:
+          mountPoints: []
+        name: chatgpt-web-java
