@@ -28,8 +28,8 @@ CREATE TABLE IF NOT EXISTS `chat_message`  (
     `ip` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL COMMENT 'ip',
     `status` int NOT NULL COMMENT '聊天记录状态',
     `is_hide` tinyint(1) NOT NULL DEFAULT 0 COMMENT '是否隐藏 0 否 1 是',
-    `create_time` timestamp NOT NULL COMMENT '创建时间',
-    `update_time` timestamp NOT NULL COMMENT '更新时间',
+    `create_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+    `update_time` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
     PRIMARY KEY (`id`) USING BTREE,
     UNIQUE INDEX `message_id`(`message_id` ASC) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci COMMENT = '聊天消息表' ROW_FORMAT = Dynamic;
