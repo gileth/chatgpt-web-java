@@ -1,4 +1,4 @@
-edition: 1.0.2
+edition: 1.0.0
 name: chatgpt-web-java
 access: '{{ access }}'
 services:
