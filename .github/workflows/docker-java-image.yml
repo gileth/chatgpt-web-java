@@ -28,9 +28,9 @@ jobs:
       - name: Setup JDK
         uses: actions/setup-java@v3
         with:
-          # openJDK 17
+          # openJDK 11
           distribution: 'adopt'
-          java-version: '17'
+          java-version: '11'
           
       # Maven 缓存
       - name: Maven Dependies Cache
