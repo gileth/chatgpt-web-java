@@ -7,10 +7,11 @@ import com.hncboy.chatgpt.base.mapper.SysFrontUserLoginLogMapper;
 import com.hncboy.chatgpt.base.util.WebUtil;
 import com.hncboy.chatgpt.front.service.FrontUserBaseService;
 import com.hncboy.chatgpt.front.service.SysFrontUserLoginLogService;
-import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
+
+import javax.annotation.Resource;
 
 /**
  * 前端用户登录日志业务实现类

@@ -20,10 +20,10 @@ import com.hncboy.chatgpt.front.service.ChatMessageService;
 import com.unfbx.chatgpt.entity.chat.ChatCompletion;
 import com.unfbx.chatgpt.entity.chat.Message;
 import com.unfbx.chatgpt.utils.TikTokensUtil;
-import jakarta.annotation.Resource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter;
 
+import javax.annotation.Resource;
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Objects;

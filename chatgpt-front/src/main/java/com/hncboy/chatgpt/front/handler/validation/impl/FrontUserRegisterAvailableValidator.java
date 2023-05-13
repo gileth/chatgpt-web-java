@@ -8,9 +8,10 @@ import com.hncboy.chatgpt.base.util.SimpleCaptchaUtil;
 import com.hncboy.chatgpt.front.domain.request.RegisterFrontUserForEmailRequest;
 import com.hncboy.chatgpt.front.service.strategy.user.AbstractRegisterTypeStrategy;
 import com.hncboy.chatgpt.front.handler.validation.annotation.FrontUserRegisterAvailable;
-import jakarta.validation.ConstraintValidator;
-import jakarta.validation.ConstraintValidatorContext;
 import lombok.extern.slf4j.Slf4j;
+
+import javax.validation.ConstraintValidator;
+import javax.validation.ConstraintValidatorContext;
 
 /**
  * 前端用户注册有效性校验器

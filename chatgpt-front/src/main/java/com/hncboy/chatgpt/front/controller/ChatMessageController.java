@@ -5,7 +5,6 @@ import com.hncboy.chatgpt.front.domain.request.ChatProcessRequest;
 import com.hncboy.chatgpt.front.service.ChatMessageService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import jakarta.servlet.http.HttpServletResponse;
 import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.validation.annotation.Validated;
@@ -14,6 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter;
+
+import javax.servlet.http.HttpServletResponse;
 
 /**
  * @author hncboy

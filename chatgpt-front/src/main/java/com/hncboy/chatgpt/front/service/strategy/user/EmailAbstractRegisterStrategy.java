@@ -22,11 +22,11 @@ import com.hncboy.chatgpt.front.service.SysFrontUserLoginLogService;
 import com.hncboy.chatgpt.front.domain.request.RegisterFrontUserForEmailRequest;
 import com.hncboy.chatgpt.front.domain.vo.LoginInfoVO;
 import com.hncboy.chatgpt.front.domain.vo.UserInfoVO;
-import jakarta.annotation.Resource;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.annotation.Resource;
 import java.util.Objects;
 
 import static com.hncboy.chatgpt.base.constant.ApplicationConstant.FRONT_JWT_EXTRA_USER_ID;

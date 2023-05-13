@@ -15,10 +15,10 @@ import com.hncboy.chatgpt.front.api.storage.AccessTokenDatabaseDataStorage;
 import com.hncboy.chatgpt.front.domain.request.ChatProcessRequest;
 import com.hncboy.chatgpt.front.service.ChatMessageService;
 import com.unfbx.chatgpt.entity.chat.Message;
-import jakarta.annotation.Resource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter;
 
+import javax.annotation.Resource;
 import java.util.Collections;
 import java.util.UUID;
 

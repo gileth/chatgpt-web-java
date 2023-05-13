@@ -3,12 +3,13 @@ package com.hncboy.chatgpt.front.domain.request;
 import com.hncboy.chatgpt.base.enums.FrontUserRegisterTypeEnum;
 import com.hncboy.chatgpt.front.handler.validation.annotation.FrontUserRegisterAvailable;
 import io.swagger.v3.oas.annotations.media.Schema;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 /**
  * 前端用户注册请求

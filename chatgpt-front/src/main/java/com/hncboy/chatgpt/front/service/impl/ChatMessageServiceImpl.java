@@ -22,12 +22,12 @@ import com.hncboy.chatgpt.front.handler.emitter.SensitiveWordEmitterChain;
 import com.hncboy.chatgpt.front.service.ChatMessageService;
 import com.hncboy.chatgpt.front.service.ChatRoomService;
 import com.hncboy.chatgpt.front.util.FrontUserUtil;
-import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter;
 
+import javax.annotation.Resource;
 import java.util.Date;
 import java.util.Objects;
 import java.util.Optional;

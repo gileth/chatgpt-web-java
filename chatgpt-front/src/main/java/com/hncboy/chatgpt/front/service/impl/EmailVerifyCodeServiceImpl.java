@@ -12,9 +12,9 @@ import com.hncboy.chatgpt.base.mapper.EmailVerifyCodeMapper;
 import com.hncboy.chatgpt.base.util.ThrowExceptionUtil;
 import com.hncboy.chatgpt.base.util.WebUtil;
 import com.hncboy.chatgpt.front.service.EmailVerifyCodeService;
-import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.Date;
 
 /**

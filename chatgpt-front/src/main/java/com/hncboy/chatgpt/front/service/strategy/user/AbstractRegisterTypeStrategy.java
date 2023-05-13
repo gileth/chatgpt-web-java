@@ -11,6 +11,7 @@ import com.hncboy.chatgpt.front.domain.vo.UserInfoVO;
 
 import java.nio.charset.StandardCharsets;
 
+
 /**
  * 注册类型策略抽象类
  *
@@ -27,10 +28,10 @@ public abstract class AbstractRegisterTypeStrategy {
     public static AbstractRegisterTypeStrategy findStrategyByRegisterType(FrontUserRegisterTypeEnum registerType) {
         switch (registerType) {
             // 邮箱注册策略
-            case EMAIL -> {
+            case EMAIL : {
                 return SpringUtil.getBean(EmailAbstractRegisterStrategy.class);
             }
-            case PHONE -> {
+            case PHONE : {
 
             }
         }
