@@ -3,7 +3,8 @@ package com.hncboy.chatgpt.base.handler.response;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpServletResponse;
+
 
 /**
  * @author hncboy

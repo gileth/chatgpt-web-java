@@ -8,7 +8,7 @@ import com.hncboy.chatgpt.base.config.ChatConfig;
 import com.hncboy.chatgpt.base.handler.RateLimiterHandler;
 import org.springframework.stereotype.Service;
 
-import jakarta.annotation.Resource;
+import javax.annotation.Resource;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Comparator;

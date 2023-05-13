@@ -1,9 +1,10 @@
 package com.hncboy.chatgpt.base.handler.response;
 
 import io.swagger.v3.oas.annotations.media.Schema;
-import jakarta.servlet.http.HttpServletResponse;
 import lombok.Data;
 import org.springframework.http.HttpStatus;
+
+import javax.servlet.http.HttpServletResponse;
 
 /**
  * @author hncboy
